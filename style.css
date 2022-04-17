@@ -1,15 +1,16 @@
 body
 {
-background-position: cover;
+background-size: cover;
 }
 
 .heading
 {
-    background-color: lightgray;
-    color: lightgreen;
+    background-color:linen;
+    color:lightskyblue;
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    width: 100%;
 
 }
 
@@ -20,7 +21,7 @@ background-position: cover;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    
+    float: right;
 }
 
 #status
@@ -29,5 +30,14 @@ background-position: cover;
     color: lightcoral;
     font-size: medium;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#restart
+{
+    background-color: lightpink;
+    color:lightseagreen ;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
